@@ -12,6 +12,22 @@ Claude Code ──── 500 tokens ────▶ Gemini CLI
 
 ---
 
+## ⚡ Demo
+
+Compare the difference in context-loading efficiency between traditional full-memory scans and the `agent-handoff` protocol.
+
+<details open>
+<summary><b>🎬 Before vs After</b></summary>
+
+| Before (45,000+ Tokens Wasted) | After (95% Token Reduction & Instant Load) |
+| :---: | :---: |
+| ![Before Demo](https://github.com/godan-tech/agent-handoff/raw/main/assets/before-demo.gif) | ![After Demo](https://github.com/godan-tech/agent-handoff/raw/main/assets/after-demo.gif) |
+| Reading massive session logs takes forever and drains your API budget. | Tiny, isolated handoff files load instantly (<0.2s) under 500 tokens. |
+
+</details>
+
+---
+
 ## The Problem
 
 You're running Claude Code and Gemini CLI side by side. You want one to verify the other's work, or continue where the other left off.
