@@ -35,8 +35,8 @@ Current reality:
 - **95% token reduction** on cross-agent communication
 
 ```
-Before: newton/session.md  →  1,596 lines  →  ~45,000 tokens
-After:  handoff/newton-to-gemini.md  →  40 lines  →  ~600 tokens
+Before: session.md  →  1,596 lines  →  ~45,000 tokens
+After:  handoff/claude-to-gemini.md  →  40 lines  →  ~600 tokens
 ```
 
 Works with: **Claude Code, Gemini CLI, Codex CLI, Cursor, any text-based AI agent.**
@@ -47,7 +47,7 @@ Works with: **Claude Code, Gemini CLI, Codex CLI, Cursor, any text-based AI agen
 
 ```bash
 # 1. Clone
-git clone https://github.com/your-username/agent-handoff
+git clone https://github.com/godan-tech/agent-handoff
 cd agent-handoff
 
 # 2. Install skills to Claude Code
