@@ -1,0 +1,11 @@
+# Active handoff files (keep local, don't commit)
+handoff/claude-to-gemini.md
+handoff/gemini-to-claude.md
+
+# Keep archive (decision history)
+# !handoff/archive/
+
+# Keep templates
+# !handoff/templates/
+
+.DS_Store
